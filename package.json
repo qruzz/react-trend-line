@@ -1,0 +1,49 @@
+{
+	"name": "react-trend-line",
+	"version": "0.1.0",
+	"description": "Simple, elegant, and smooth trend lines in react",
+	"keywords": [
+		"javascript",
+		"typescript",
+		"react",
+		"environment variables"
+	],
+	"author": "qruzz <m9ssen@gmail.com>",
+	"license": "MIT",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"scripts": {
+		"dev": "tsc --watch",
+		"build": "tsc"
+	},
+	"directories": {
+		"src": "src",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib/**/*",
+		"README.md",
+		"package.json"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:qruzz/react-trend-line.git"
+	},
+	"bugs": {
+		"url": "https://github.com/qruzz/react-trend-line/issues"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^8.2.0",
+		"@commitlint/config-conventional": "^8.2.0",
+		"@storybook/react": "^5.2.5",
+		"husky": "^3.0.9",
+		"lint-staged": "^9.4.2",
+		"typescript": "^3.6.4"
+	},
+	"peerDependencies": {
+		"react": "^16.11.0"
+	}
+}
